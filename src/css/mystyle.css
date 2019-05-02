@@ -1,1 +1,2 @@
 body { font:20px Arial; }
+#game { border:1px solid #000; box-shadow:2px 2px 2px rgba(0,0,0,0.5); width:400px; height:800px; }
