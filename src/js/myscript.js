@@ -14,24 +14,25 @@ S.circle = function(x,y,r,bg) {
 }
 
 
-o = {
-  m: x => x*2
-}
-
-console.log( o.m(2) );
-
 /**
 * GAME
 **/
-class Ball {
+class MovingElement {
   constructor() {
-
+    this.x = 0;
+    this.y = 0;
   }
 }
 
-class Racket {
+class Ball extends MovingElement {
   constructor() {
+    super();
+  }
+}
 
+class Racket extends MovingElement {
+  constructor() {
+    super();
   }
 }
 
